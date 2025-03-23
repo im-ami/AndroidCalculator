@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/button_square"
+        style="@style/CalcButton"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/square"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/button_percentage"-->
+<!--        style="@style/CalcButton"-->
+<!--        android:text="@string/percentage"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/button_decimal"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/button_square"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/button_square" />-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

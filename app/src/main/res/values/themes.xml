@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="EqualsButton" parent="Widget.MaterialComponents.Button">
+        <item name="background">@color/light_blue</item>
+    </style>
+
+    <style name="CalcButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/round_button</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="layout_constraintDimensionRatio">1:1</item>
+    </style>
+
+    <style name="CalcButtonLandscape">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/round_button</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="layout_constraintDimensionRatio">1:1</item>
+    </style>
+
+
+    <style name="Theme.Calculator" parent="Base.Theme.Calculator" />
+</resources>
